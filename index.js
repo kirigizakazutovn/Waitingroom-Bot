@@ -4,7 +4,7 @@ const config = require("./config.json") //define Config
 //Fires when the Bot has started
 client.on("ready", () => {
     radioexecuteadmin(client); //call the function
-    client.user.setActivity("🎶 24/7 Music 🎶", { type: "PLAYING" }); //set Bot activity 
+    client.user.setActivity("Bot host in replit.com/@kirigizakazuto/Waitingroom-Bot", { type: "PLAYING" }); //set Bot activity 
     console.log(`${client.user.username} ready!`); //Log that the Bot is ready
 });
 //recognise if someone joins the channel
@@ -44,4 +44,4 @@ function delay(delayInms) {
         }, delayInms);
     });
 }
-//Coded by Tomato#6966
+//Coded by ImWibu#4827
